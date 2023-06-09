@@ -38,7 +38,7 @@ uint64_t nPrime(uint64_t n) {
 uint64_t nextPrime(uint64_t value) {
  uint64_t prost = 0;
   uint64_t ch = 0;
-  for ( uint64_t p = value + 1 ; ch < 1; p++) {
+  for ( uint64_t p = value + 1; ch < 1; p++) {
     uint64_t kol = 0;
     for (uint64_t i = 2; i <= p - 1; i++) {
       if (p % i == 0) {
